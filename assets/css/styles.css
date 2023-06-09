@@ -18,7 +18,8 @@ body {
   height: 100%;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
 }
 
@@ -45,7 +46,7 @@ img {
 .header__navbar {
   width: 30rem;
   background-color: rgba(214, 214, 214, 0.5);
-  padding: .4rem;
+  padding: 0.4rem;
   border-radius: 3rem;
   position: fixed;
   top: 3vh;
@@ -177,4 +178,39 @@ img {
   padding: 1.2rem 3rem;
   border-radius: 3rem;
   color: #fff;
+}
+
+@media only screen and (min-width: 567px) {
+  .gallery__section--grid {
+    gap: 5rem;
+  }
+}
+
+@media only screen and (min-width: 913px) {
+  .hero__section {
+    height: 85vh;
+  }
+
+  .hero__title {
+    font-size: 7rem;
+    width: 70%;
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+
+  .hero__container--tags {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .hero--tags {
+    background: #f3f2f1;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 2rem;
+  }
+
+  .tag-clean {
+    background: none;
+  }
 }
