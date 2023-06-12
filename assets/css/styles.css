@@ -211,6 +211,11 @@ img {
 .footer__nav--link {
   color: #000;
   font-weight: 600;
+  transition: all 200ms ease-in-out;
+}
+
+.footer__nav--link:hover {
+  color: #aaa;
 }
 
 .footer__nav--shop {
@@ -304,5 +309,24 @@ img {
 
   .gallery_subtext--container {
     display: none;
+  }
+
+  .contact__section {
+    height: 75vh;
+  }
+
+  .contact--title {
+    font-size: 3.6rem;
+  }
+
+  .footer {
+    justify-content: space-between;
+    flex-direction: row;
+    padding-bottom: 3rem;
+  }
+
+  .footer__nav--shop {
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
