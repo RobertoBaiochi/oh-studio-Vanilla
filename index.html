@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <script src="./assets/js/main.js" defer></script>
     <title>OH.STUDIO</title>
   </head>
@@ -12,7 +16,9 @@
     <header class="header max-width--container">
       <nav class="header__navbar">
         <ul>
-          <li class="header__navbar--active-link"><a href="/" class="header__navbar--link">Home</a></li>
+          <li class="header__navbar--active-link">
+            <a href="/" class="header__navbar--link">Home</a>
+          </li>
           <li>
             <a href="/profile.html" class="header__navbar--link">Profile</a>
           </li>
@@ -37,146 +43,225 @@
         </div>
       </section>
 
-      <section id="Gallery__Section" class="gallery__section--grid max-width--container">
+      <section
+        id="Gallery__Section"
+        class="gallery__section--grid max-width--container"
+      >
         <div class="gallery__container">
-          <img
-            src="./assets/img/img1.jpg"
-            alt=""
-            class="gallery__container--img"
-          />
-          <div class="gallery_subcontainer">
-            <p class="gallery_subcontainer--text">Aire</p>
-            <i class="gallery_subcontainer--icon"></i>
+          <a href="" class="gallery-link">
+            <img
+              src="./assets/img/img1.jpg"
+              alt=""
+              class="gallery__container--img"
+            />
+
+            <div class="gallery__container--modal">
+              <p>Aire</p>
+              <i class="bx bx-right-arrow-alt"></i>
+            </div>
+          </a>
+          <div class="gallery_subtext--container">
+            <p class="gallery--subtext">Aire</p>
+          </div>
+        </div>
+
+        <div class="gallery__container">
+          <a href="" class="gallery-link">
+            <img
+              src="./assets/img/img2.jpg"
+              alt=""
+              class="gallery__container--img"
+            />
+
+            <div class="gallery__container--modal">
+              <p>Correlated</p>
+              <i class="bx bx-right-arrow-alt"></i>
+            </div>
+          </a>
+          <div class="gallery_subtext--container">
+            <p class="gallery--subtext">Correlated</p>
           </div>
         </div>
         <div class="gallery__container">
-          <img
-            src="./assets/img/img2.jpg"
-            alt=""
-            class="gallery__container--img"
-          />
-          <div class="gallery_subcontainer">
-            <p class="gallery_subcontainer--text">Correlated</p>
-            <i class="gallery_subcontainer--icon"></i>
+          <a href="" class="gallery-link">
+            <img
+              src="./assets/img/img3.jpg"
+              alt=""
+              class="gallery__container--img"
+            />
+
+            <div class="gallery__container--modal">
+              <p>Channel 5</p>
+              <i class="bx bx-right-arrow-alt"></i>
+            </div>
+          </a>
+          <div class="gallery_subtext--container">
+            <p class="gallery--subtext">Channel 5</p>
           </div>
         </div>
         <div class="gallery__container">
-          <img
-            src="./assets/img/img3.jpg"
-            alt=""
-            class="gallery__container--img"
-          />
-          <div class="gallery_subcontainer">
-            <p class="gallery_subcontainer--text">Channel 5</p>
-            <i class="gallery_subcontainer--icon"></i>
+          <a href="" class="gallery-link">
+            <img
+              src="./assets/img/img4.jpg"
+              alt=""
+              class="gallery__container--img"
+            />
+
+            <div class="gallery__container--modal">
+              <p>Ronald Abram</p>
+              <i class="bx bx-right-arrow-alt"></i>
+            </div>
+          </a>
+          <div class="gallery_subtext--container">
+            <p class="gallery--subtext">Ronald Abram</p>
           </div>
         </div>
         <div class="gallery__container">
-          <img
-            src="./assets/img/img4.jpg"
-            alt=""
-            class="gallery__container--img"
-          />
-          <div class="gallery_subcontainer">
-            <p class="gallery_subcontainer--text">Ronald Abram</p>
-            <i class="gallery_subcontainer--icon"></i>
+          <a href="" class="gallery-link">
+            <img
+              src="./assets/img/img5.jpg"
+              alt=""
+              class="gallery__container--img"
+            />
+
+            <div class="gallery__container--modal">
+              <p>Propeller</p>
+              <i class="bx bx-right-arrow-alt"></i>
+            </div>
+          </a>
+          <div class="gallery_subtext--container">
+            <p class="gallery--subtext">Propeller</p>
           </div>
         </div>
         <div class="gallery__container">
-          <img
-            src="./assets/img/img5.jpg"
-            alt=""
-            class="gallery__container--img"
-          />
-          <div class="gallery_subcontainer">
-            <p class="gallery_subcontainer--text">Propeller</p>
-            <i class="gallery_subcontainer--icon"></i>
+          <a href="" class="gallery-link">
+            <img
+              src="./assets/img/img6.jpg"
+              alt=""
+              class="gallery__container--img"
+            />
+
+            <div class="gallery__container--modal">
+              <p>Schuh</p>
+              <i class="bx bx-right-arrow-alt"></i>
+            </div>
+          </a>
+          <div class="gallery_subtext--container">
+            <p class="gallery--subtext">Schuh</p>
           </div>
         </div>
         <div class="gallery__container">
-          <img
-            src="./assets/img/img6.jpg"
-            alt=""
-            class="gallery__container--img"
-          />
-          <div class="gallery_subcontainer">
-            <p class="gallery_subcontainer--text">Schuh</p>
-            <i class="gallery_subcontainer--icon"></i>
+          <a href="" class="gallery-link">
+            <img
+              src="./assets/img/img7.jpg"
+              alt=""
+              class="gallery__container--img"
+            />
+
+            <div class="gallery__container--modal">
+              <p>Paperstreet</p>
+              <i class="bx bx-right-arrow-alt"></i>
+            </div>
+          </a>
+          <div class="gallery_subtext--container">
+            <p class="gallery--subtext">Paperstreet</p>
           </div>
         </div>
         <div class="gallery__container">
-          <img
-            src="./assets/img/img7.jpg"
-            alt=""
-            class="gallery__container--img"
-          />
-          <div class="gallery_subcontainer">
-            <p class="gallery_subcontainer--text">Paperstreet</p>
-            <i class="gallery_subcontainer--icon"></i>
+          <a href="" class="gallery-link">
+            <img
+              src="./assets/img/img8.jpg"
+              alt=""
+              class="gallery__container--img"
+            />
+
+            <div class="gallery__container--modal">
+              <p>OH.SUPPLY</p>
+              <i class="bx bx-right-arrow-alt"></i>
+            </div>
+          </a>
+          <div class="gallery_subtext--container">
+            <p class="gallery--subtext">OH.SUPPLY</p>
           </div>
         </div>
         <div class="gallery__container">
-          <img
-            src="./assets/img/img8.jpg"
-            alt=""
-            class="gallery__container--img"
-          />
-          <div class="gallery_subcontainer">
-            <p class="gallery_subcontainer--text">OH.SUPPLY</p>
-            <i class="gallery_subcontainer--icon"></i>
+          <a href="" class="gallery-link">
+            <img
+              src="./assets/img/img9.jpg"
+              alt=""
+              class="gallery__container--img"
+            />
+
+            <div class="gallery__container--modal">
+              <p>Monokel Eyewear</p>
+              <i class="bx bx-right-arrow-alt"></i>
+            </div>
+          </a>
+          <div class="gallery_subtext--container">
+            <p class="gallery--subtext">Monokel Eyewear</p>
           </div>
         </div>
         <div class="gallery__container">
-          <img
-            src="./assets/img/img9.jpg"
-            alt=""
-            class="gallery__container--img"
-          />
-          <div class="gallery_subcontainer">
-            <p class="gallery_subcontainer--text">Monokel Eyewear</p>
-            <i class="gallery_subcontainer--icon"></i>
+          <a href="" class="gallery-link">
+            <img
+              src="./assets/img/img10.jpg"
+              alt=""
+              class="gallery__container--img"
+            />
+
+            <div class="gallery__container--modal">
+              <p>Lawtrades</p>
+              <i class="bx bx-right-arrow-alt"></i>
+            </div>
+          </a>
+          <div class="gallery_subtext--container">
+            <p class="gallery--subtext">Lawtrades <span>Comming Soon</span></p>
           </div>
         </div>
         <div class="gallery__container">
-          <img
-            src="./assets/img/img10.jpg"
-            alt=""
-            class="gallery__container--img"
-          />
-          <div class="gallery_subcontainer">
-            <p class="gallery_subcontainer--text">Lawtrades <span>Comming Soon</span></p>
-            <i class="gallery_subcontainer--icon"></i>
+          <a href="" class="gallery-link">
+            <img
+              src="./assets/img/img11.jpg"
+              alt=""
+              class="gallery__container--img"
+            />
+
+            <div class="gallery__container--modal">
+              <p>Baselworld</p>
+              <i class="bx bx-right-arrow-alt"></i>
+            </div>
+          </a>
+          <div class="gallery_subtext--container">
+            <p class="gallery--subtext">Baselworld <span>Comming Soon</span></p>
           </div>
         </div>
         <div class="gallery__container">
-          <img
-            src="./assets/img/img11.jpg"
-            alt=""
-            class="gallery__container--img"
-          />
-          <div class="gallery_subcontainer">
-            <p class="gallery_subcontainer--text">Baselworld <span>Comming Soon</span></p>
-            <i class="gallery_subcontainer--icon"></i>
-          </div>
-        </div>
-        <div class="gallery__container">
-          <img
-            src="./assets/img/img12.jpg"
-            alt=""
-            class="gallery__container--img"
-          />
-          <div class="gallery_subcontainer">
-            <p class="gallery_subcontainer--text">NYCB</p>
-            <i class="gallery_subcontainer--icon"></i>
+          <a href="" class="gallery-link">
+            <img
+              src="./assets/img/img12.jpg"
+              alt=""
+              class="gallery__container--img"
+            />
+
+            <div class="gallery__container--modal">
+              <p>NYCB</p>
+              <i class="bx bx-right-arrow-alt"></i>
+            </div>
+          </a>
+          <div class="gallery_subtext--container">
+            <p class="gallery--subtext">NYCB</p>
           </div>
         </div>
       </section>
 
-      <section id="Contact__Section" class="contact__section max-width--container">
+      <section
+        id="Contact__Section"
+        class="contact__section max-width--container"
+      >
+        <h2 class="contact--title">Let's work together.</h2>
         <h2 class="contact--title">
-          Let's work together.
+          <a href="" class="contact--link">Get in touch.</a>
         </h2>
-        <h2 class="contact--title"><a href="" class="contact--link">Get in touch.</a></h2>
       </section>
     </main>
 
