@@ -130,7 +130,7 @@ img {
   font-weight: 600;
 }
 
-.gallery__container--modal i {
+.gallery__container--modal .arrow {
   width: 35px;
   height: 35px;
   display: flex;
@@ -141,6 +141,20 @@ img {
   background-color: #fff;
   color: #000;
   transform: rotate(-45deg);
+  translate: -20% 20%;
+  transition: all 300ms ease-in-out;
+}
+
+.gallery__container--modal .lock {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 1.6rem;
+  color: #fff;
+  background-color: #000;
   translate: -20% 20%;
   transition: all 300ms ease-in-out;
 }
@@ -167,6 +181,7 @@ img {
 .contact--title {
   font-size: 3rem;
 }
+
 .contact--link {
   color: #aaa;
 }
@@ -251,9 +266,11 @@ img {
     gap: 4rem 2rem;
   }
 
-  .gallery-link {
+  .gallery-link,
+  .gallery-lock {
     position: relative;
   }
+
   .gallery__container--modal {
     width: 100%;
     height: 100%;
@@ -265,12 +282,24 @@ img {
     backdrop-filter: blur(7px);
   }
 
-  .gallery-link:hover .gallery__container--modal {
+  .gallery-link:hover img,
+  .gallery-lock:hover img {
+    filter: brightness(70%);
+  }
+
+  .gallery-link:hover .gallery__container--modal,
+  .gallery-lock:hover .gallery__container--modal {
     opacity: 1;
   }
 
-  .gallery-link:hover .gallery__container--modal i {
+  .gallery-link:hover .gallery__container--modal i,
+  .gallery-lock:hover .gallery__container--modal i {
     translate: 0% 0%;
+  }
+
+  .gallery__container--modal p span {
+    display: block;
+    color: #ccc;
   }
 
   .gallery_subtext--container {
