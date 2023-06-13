@@ -10,7 +10,7 @@ Aqui só vou utilizar os layouts para fins de estudos, utilizando imagens não r
 
 ### Inicialização:
 
-Após `git clone` basta iniciar o um live server.
+Após `git clone` basta iniciar um live server.
 
 <hr>
 
