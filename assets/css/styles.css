@@ -98,7 +98,7 @@ img {
 .hero__title {
   font-size: 3.6rem;
   text-align: center;
-  margin-top: 8rem;
+  margin: 8rem auto;
 }
 
 .hero__container--tags {
@@ -245,8 +245,28 @@ img {
 
 /* >>> TABLET <<< */
 @media only screen and (min-width: 567px) {
+  .hero__section {
+    height: 85vh;
+  }
+
   .gallery__section--grid {
-    gap: 5rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem 2rem;
+  }
+
+  .contact__section {
+    height: 75vh;
+  }
+
+  .footer {
+    justify-content: space-between;
+    flex-direction: row;
+    padding-bottom: 3rem;
+  }
+
+  .footer__nav--shop {
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
 
@@ -256,10 +276,6 @@ img {
   .max-width--container {
     padding-inline: 4rem;
     margin-inline: auto;
-  }
-
-  .hero__section {
-    height: 85vh;
   }
 
   .hero__title {
@@ -283,11 +299,6 @@ img {
 
   .tag-clean {
     background: none;
-  }
-
-  .gallery__section--grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 4rem 2rem;
   }
 
   .gallery-link,
@@ -331,23 +342,8 @@ img {
     display: none;
   }
 
-  .contact__section {
-    height: 75vh;
-  }
-
   .contact--title {
     font-size: 3.6rem;
-  }
-
-  .footer {
-    justify-content: space-between;
-    flex-direction: row;
-    padding-bottom: 3rem;
-  }
-
-  .footer__nav--shop {
-    left: 50%;
-    transform: translateX(-50%);
   }
 }
 
