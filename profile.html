@@ -1,12 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <h1>Profile</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <title>OH.STUDIO</title>
+  </head>
+  <body>
+    <header class="header max-width--container">
+      <nav class="header__navbar">
+        <ul>
+          <li>
+            <a href="/" class="header__navbar--link">Home</a>
+          </li>
+          <li class="header__navbar--active-link">
+            <a href="/profile.html" class="header__navbar--link">Profile</a>
+          </li>
+          <li>
+            <a href="/contact.html" class="header__navbar--link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="About__Hero--Section" class="hero__section max-width--container">
+        <h1 class="hero__title">Hey 👋🏼 i'm Roberto</h1>
+      </section>
+
+      <section
+        id="Perfil__Photos"
+        class="perfil__photos--grid max-width--container"
+      >
+        <img
+          src="./assets/img/pc.webp"
+          alt=""
+          class="gallery__container--img"
+        />
+        <img
+          src="./assets/img/familia.webp"
+          alt=""
+          class="gallery__container--img hide-img"
+        />
+      </section>
+
+      <section id="About__Section" class="about__section max-width--container">
+        <h6 class="profile--tag-title">About</h6>
+        <h4 class="about__heading"">
+          A freelance designer based in the Brazil. I combine my experience in
+          product and brand to solve problems, tell stories, and create
+          compelling experiences.
+        </h4>
+      </section>
+
+      <section id="Experience__Section" class="experience__section max-width--container">
+       <div class="experience__container--heading">
+          <h6 class="profile--tag-title">Experience</h6>
+          <h4 class="profile__heading"">
+            Where i've worked
+          </h4>
+       </div>
+      </section>
+
+      <section
+        id="Contact__Section"
+        class="contact__section max-width--container"
+      >
+        <h2 class="contact--title">Let's work together.</h2>
+        <h2 class="contact--title">
+          <a href="" class="contact--link">Get in touch.</a>
+        </h2>
+      </section>
+    </main>
+
+    <footer id="Footer" class="footer max-width--container">
+      <p class="footer__developer">Roberto Baiochi 2023</p>
+
+      <nav class="footer__nav">
+        <ul>
+          <li><a href="" class="footer__nav--link">Twitter</a></li>
+          <li><a href="" class="footer__nav--link">Linkedin</a></li>
+          <li><a href="" class="footer__nav--link">Mail</a></li>
+        </ul>
+      </nav>
+    </footer>
+    </main>
+  </body>
 </html>
