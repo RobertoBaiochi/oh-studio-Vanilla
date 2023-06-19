@@ -515,3 +515,33 @@ img {
     grid-template-columns: repeat(4, 1fr);
   }
 }
+
+/* === ~~> CONTACT PAGE <~~ === */
+
+.contact-page__section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 17rem);
+}
+
+.contact-page__container--headings {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact-page--title {
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+@media only screen and (min-width: 780px) {
+  .contact-page__section {
+    height: calc(100vh - 10.7rem);
+  }
+  .contact-page--title {
+    font-size: 5rem;
+  }
+}
