@@ -18,4 +18,4 @@ Após `git clone` basta iniciar um live server.
 
 O projeto ainda está em andamento, ainda pretendo criar rotas para cada imagem do projeto e menu.
 
-live: https://robertobaiochi.github.io/oh-studio-vanilla/
+live: [https://robertobaiochi.github.io/oh-studio-vanilla/](https://oh-studio-copy.vercel.app/)
